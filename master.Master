@@ -8,10 +8,67 @@
     
     <title>QE Manager</title>
         <style>
+            #lblApp{
+                align-content:flex-start;
+            }
+
+           .btnTab{
+               background-color:#d43409;
+               border:none;
+               color:white;
+                border-radius: 5px;
+           }
+            .btnTabColor{
+               background-color:lightgray;
+               border:none;
+               color:black;
+               border-radius: 5px;
+           }
+
+           #stContainer {
+               
+               padding: 10px 10px 10px 10px;
+               background-color: darkgray;
+               border: 1px solid gray;
+               border-radius: 5px;
+               box-shadow:  0 2px 4px rgba(0,0,0,0.8);
+               
+           }
+
+           #GridView1{
+
+               background-color:floralwhite;
+               border:none;
+           }
+
+           #selectPage {
+              
+               padding: 10px 10px 10px 10px;
+               background-color: lightgray;
+               border: 1px solid darkgray;
+               border-radius: 5px;
+           }
+
+
         head {
             font: bold;
         }
+        #delayCol{
+            background-color: floralwhite;
+            border: 1px solid darkgray;
+            box-shadow:  0 2px 4px rgba(0,0,0,0.8);
+          
+            
 
+        }
+
+       
+        #applyCol{
+            background-color:floralwhite;
+             border: 1px solid darkgray;
+             box-shadow:  0 2px 4px rgba(0,0,0,0.8);
+
+        }
         #form1 {
             margin-top: 100px;
             margin-left: 100px;
